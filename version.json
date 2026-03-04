@@ -1,10 +1,5 @@
 {
-  "version": "1.0.0",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.2.0/NexxtEffects_v1.0.0.zxp",
-  "changelog": [
-    "🚀 Private Download Atualizado",
-    "🚀 HeyGen Gallery Atualizado",
-    "🚀 Morgts adicionados",
-    "🔧 Bug-fixes e melhorias de performance"
-  ]
+  "version": "1.1.1",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.2.0/NexxtEffects_v1.1.1.zxp",
+  "changelog": ["✅ MOGRTs automáticos", "🔧 Auto-update corrigido"]
 }
