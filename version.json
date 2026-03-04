@@ -1,10 +1,11 @@
 {
-  "version": "1.1.1",
+  "version": "1.2.0",
   "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.2.0/NexxtEffects_v1.2.0.zxp",
   "changelog": [
-    "✅ MOGRTs agora são baixados na nuvem e não pesam mais o plugin",
-    "🔧 Auto-update corrigido e funcionando",
-    "🔧 Salve nego",
-    "📦 Instalação super leve (~170 KB)"
+    "📥 Download automático de templates MOGRT corrigido",
+    "📊 Barra de progresso real no download (mostra MB baixados)",
+    "🔄 Botão Reinstalar Templates na aba Captions",
+    "🌐 Sistema de atualização: sempre busca a release mais recente",
+    "🗜️ Suporte a extração de templates .rar e .zip"
   ]
 }
