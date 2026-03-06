@@ -1,9 +1,13 @@
 {
-  "version": "1.2.0",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.2.0/NexxtEffects_v1.2.0.zxp",
+  "version": "1.3.0",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.3.0/NexxtEffects_v1.3.0.zxp",
   "changelog": [
-    "📥 Download automático de templates MOGRT corrigido",
-    "📥 Gemini e Llama funcionando",
-    "🗜️ Suporte a extração de templates .rar e .zip"
+    "🎨 Galeria: layout otimizado com busca e filtros por pasta aprimorados",
+    "🎬 Captions: espaço vertical reduzido, label 'Templates' removido",
+    "📥 Downloader: layout subido, histórico persistente entre sessões corrigido",
+    "🔴 Downloader: hover colorido por plataforma (YT=vermelho, IG=rosa, etc.)",
+    "⚙️ Configurações: chave Gemini e pasta SRT agora persistem após reiniciar",
+    "🛡️ SRT Review: bug da tela em branco corrigido (tag HTML desbalanceada)",
+    "🔒 Código ofuscado com proteção RC4 + dead code injection"
   ]
 }
