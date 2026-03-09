@@ -8,7 +8,6 @@
     "🎬 Captions: espaço vertical reduzido, melhorias de layout",
     "📥 Downloader: histórico persistente entre sessões corrigido",
     "⚙️ Configurações: chave Gemini e pasta SRT persistem após reiniciar",
-    "🛡️ SRT Review: bug da tela em branco corrigido",
-    "🔐 Código protegido com ofuscação RC4 + dead code injection"
+    "🛡️ SRT Review: bug da tela em branco corrigido"
   ]
 }
