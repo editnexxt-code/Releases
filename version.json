@@ -1,9 +1,9 @@
 {
-  "version": "1.3.0",
-  "url": "https://nexxtedit.netlify.app/downloads/NexxtEffects_v1.3.0.zxp",
+  "version": "1.4.0",
+  "url": "https://nexxtedit.netlify.app/downloads/NexxtEffects_v1.4.0.zxp",
   "changelog": [
     "🔒 Sistema de licença e login ativado",
-    "📊 Dashboard com histórico de gerações",
+    "📊 Dashboard com histórico de gerações no site",
     "🎨 Galeria: layout otimizado com busca e filtros aprimorados",
     "🎬 Captions: espaço vertical reduzido, melhorias de layout",
     "📥 Downloader: histórico persistente entre sessões corrigido",
