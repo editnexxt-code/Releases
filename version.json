@@ -1,8 +1,14 @@
 {
   "version": "1.3.0",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/1.3.0/NexxtEffects_v1.3.0.zxp",
+  "url": "https://nexxtedit.netlify.app/downloads/NexxtEffects_v1.3.0.zxp",
   "changelog": [
-    "Reestruturação do Plug In",
-    "Nexxt Edit"
+    "🔒 Sistema de licença e login ativado",
+    "📊 Dashboard com histórico de gerações",
+    "🎨 Galeria: layout otimizado com busca e filtros aprimorados",
+    "🎬 Captions: espaço vertical reduzido, melhorias de layout",
+    "📥 Downloader: histórico persistente entre sessões corrigido",
+    "⚙️ Configurações: chave Gemini e pasta SRT persistem após reiniciar",
+    "🛡️ SRT Review: bug da tela em branco corrigido",
+    "🔐 Código protegido com ofuscação RC4 + dead code injection"
   ]
 }
