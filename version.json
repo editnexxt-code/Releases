@@ -1,11 +1,11 @@
 {
-  "version": "1.4.3",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.4.3/NexxtEffects_v1.4.3.zxp",
+  "version": "1.4.4",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.4.4/NexxtEffects_v1.4.4.zxp",
   "changelog": [
     "🔧 Fix crítico: botões do plugin voltaram a funcionar (freeze na UI corrigido)",
     "🎨 Variabilizador: Lumetri Color aplica valores reais nos clips",
     "🎛️ Variabilizador: sliders com range 5x maior para ajustes mais perceptíveis",
     "📢 Variabilizador: Grain usa efeito Noise nativo do Premiere",
-    "🔔 Sistema de atualização: modal de novidades fecha corretamente"
+    "🔔 Sistema de atualização: botões 'Depois' e 'Baixar' funcionando corretamente"
   ]
 }
