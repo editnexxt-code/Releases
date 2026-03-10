@@ -1,13 +1,10 @@
 {
   "version": "1.4.0",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.4.0/NexxtEffects_v1.4.0.zxp",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.4.1/NexxtEffects_v1.4.1.zxp",
   "changelog": [
     "🔒 Sistema de licença e login ativado",
-    "📊 Dashboard com histórico de gerações no site",
-    "🎨 Galeria: layout otimizado com busca e filtros aprimorados",
-    "🎬 Captions: espaço vertical reduzido, melhorias de layout",
     "📥 Downloader: histórico persistente entre sessões corrigido",
-    "⚙️ Configurações: chave Gemini e pasta SRT persistem após reiniciar",
+    "⚙️ Lumetri Color - Roll",
     "🛡️ SRT Review: bug da tela em branco corrigido"
   ]
 }
