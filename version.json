@@ -1,12 +1,11 @@
 {
-  "version": "1.4.1",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.4.1/NexxtEffects_v1.4.1.zxp",
+  "version": "1.4.2",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.4.2/NexxtEffects_v1.4.2.zxp",
   "changelog": [
-    "🔒 Sistema de licença e login ativado",
-    "📥 Downloader: histórico persistente entre sessões corrigido",
-    "📥 UI Atualizada",
-    "📥 Botao corrigido de vez",
-    "⚙️ Lumetri Color - Roll",
-    "🛡️ SRT Review: bug da tela em branco corrigido"
+    "🔧 Fix crítico: botões do plugin voltaram a funcionar (freeze na UI corrigido)",
+    "🎨 Variabilizador: Lumetri Color aplica valores reais nos clips",
+    "🎛️ Variabilizador: sliders com range 5x maior",
+    "📢 Variabilizador: Grain usa efeito Noise nativo do Premiere",
+    "🔔 Sistema de atualização: botão de download corrigido"
   ]
 }
