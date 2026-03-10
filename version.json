@@ -1,10 +1,12 @@
 {
-  "version": "1.4.6",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.4.6/NexxtEffects_v1.4.6.zxp",
+  "version": "1.5.0",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.5.0/NexxtEffects_v1.5.0.zxp",
   "changelog": [
-    "🌍 Variabilizador: compatibilidade com todos os idiomas do Premiere (IT, FR, JA, KO, ZH, RU, NL, SV, PL, TR)",
-    "🔁 Variabilizador: correção de inicialização do QE em algumas instalações",
-    "⚠️ Variabilizador: mensagem de erro clara quando o efeito não pode ser aplicado",
-    "🔔 Sistema de atualização: botões 'Depois' e 'Baixar' funcionando corretamente"
+    "🛡️ Novo: Safe Ad Nexxt — extensão anti-fingerprint direto na aba Variabilizador",
+    "🎬 Backgrounds em loop: Praia, Paisagem, Chuva, Cachoeira, Timer — com duração alvo configurável",
+    "⏱️ Presets de plataforma: YouTube 2:30 e Facebook 7:40 com um clique",
+    "🎲 Modo Aleatório: escolhe categoria e noise automaticamente",
+    "🎚️ Controle de opacidade do vídeo de fundo (10–100%)",
+    "📦 Asset Pack: instalação de assets diretamente no painel (local ZIP ou download)"
   ]
 }
