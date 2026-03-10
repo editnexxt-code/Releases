@@ -4,7 +4,7 @@
   "changelog": [
     "🔧 Fix crítico: botões do plugin voltaram a funcionar (freeze na UI corrigido)",
     "🎨 Variabilizador: Lumetri Color aplica valores reais nos clips",
-    "🎛️ Variabilizador: sliders com range 5x maior",
+    "🎛️ Variabilizador: sliders com range 5.1x maior",
     "📢 Variabilizador: Grain usa efeito Noise nativo do Premiere",
     "🔔 Sistema de atualização: botão de download corrigido"
   ]
