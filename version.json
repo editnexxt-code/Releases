@@ -1,12 +1,12 @@
 {
-  "version": "1.5.0",
-  "url": "https://github.com/editnexxt-code/Nexxt-Effects/releases/download/v1.5.0/NexxtEffects_v1.5.0.zxp",
+  "version": "1.6.0",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.6.0/NexxtEffects_v1.6.0.zxp",
   "changelog": [
-    "🛡️ Novo: Safe Ad Nexxt — extensão anti-fingerprint direto na aba Variabilizador",
-    "🎬 Backgrounds em loop: Praia, Paisagem, Chuva, Cachoeira, Timer — com duração alvo configurável",
-    "⏱️ Presets de plataforma: YouTube 2:30 e Facebook 7:40 com um clique",
-    "🎲 Modo Aleatório: escolhe categoria e noise automaticamente",
-    "🎚️ Controle de opacidade do vídeo de fundo (10–100%)",
-    "📦 Asset Pack: instalação de assets diretamente no painel (local ZIP ou download)"
+    "🚀 UPDATE GIGANTE: Safe Ad Nexxt Inteligente & Modularizado!",
+    "🧩 Modularidade Total: Ative ou desative livremente o Overlay, Vídeo Final e Noise no painel usando caixas de seleção.",
+    "🧠 Engine Adaptativa: O plugin calcula exatamente quantas tracks vazias precisa. Desabilitou? Ele não recusa a operação!",
+    "🎵 FFmpeg Anti-Lag (Stretching Automático): Áudios curtinhos agora são alongados invisivelmente ANTES de entrarem na timeline. Fim do lag infernal de 800 clones de clipe no Premiere!",
+    "🎚️ Mixagem Impecável: Equalização automática avançada de fábrica nos gerados (Noise para -10 dB, Vídeo Final com -15 dB).",
+    "🛑 Botão de Pânico: Novo botão 'Parar Operação' visível para cancelar montagens enormes de repente caso você mude de ideia."
   ]
 }
