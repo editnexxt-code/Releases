@@ -3,10 +3,8 @@
   "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.6.0/NexxtEffects_v1.6.0.zxp",
   "changelog": [
     "🚀 UPDATE GIGANTE: Safe Ad Nexxt Inteligente & Modularizado!",
-    "🧩 Modularidade Total: Ative ou desative livremente o Overlay, Vídeo Final e Noise no painel usando caixas de seleção.",
-    "🧠 Engine Adaptativa: O plugin calcula exatamente quantas tracks vazias precisa. Desabilitou? Ele não recusa a operação!",
-    "🎵 FFmpeg Anti-Lag (Stretching Automático): Áudios curtinhos agora são alongados invisivelmente ANTES de entrarem na timeline. Fim do lag infernal de 800 clones de clipe no Premiere!",
-    "🎚️ Mixagem Impecável: Equalização automática avançada de fábrica nos gerados (Noise para -10 dB, Vídeo Final com -15 dB).",
-    "🛑 Botão de Pânico: Novo botão 'Parar Operação' visível para cancelar montagens enormes de repente caso você mude de ideia."
+    "🧩 Modularidade Total: Ative ou desative livremente o Overlay, Vídeo Final e Noise.",
+    "🧠 Engine Adaptativa: O plugin calcula exatamente quantas tracks vazias precisa.",
+    "🎵 FFmpeg Anti-Lag: Áudios curtinhos agora são alongados invisivelmente pra zero lag."
   ]
 }
