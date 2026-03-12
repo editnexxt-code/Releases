@@ -1,11 +1,9 @@
 {
-  "version": "1.7.2",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.7.2/NexxtEffects_v1.7.2.zxp",
+  "version": "1.7.3",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v.1.7.3/NexxtEffects_v1.7.3.zxp",
   "changelog": [
     "🚀 UPDATE GIGANTE: Safe Ad Nexxt Inteligente & Modularizado!",
-    "🚀 Botão de Download!",
-    "🧩 Modularidade Total: Ative ou desative livremente o Overlay, Vídeo Final e Noise.",
-    "🧠 Engine Adaptativa: O plugin calcula exatamente quantas tracks vazias precisa.",
+    "🧠 Bugs corrigidos",
     "Deu trabalho, mas, saiu!."
   ]
 }
