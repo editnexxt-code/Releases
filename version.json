@@ -1,10 +1,12 @@
 {
-  "version": "2.0.1",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.1/NexxtEffects_v2.0.1.zxp",
+  "version": "2.0.2",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.2/NexxtEffects_v2.0.2.zxp",
   "changelog": [
-    "Fix: removidos todos os caracteres especiais garbled da interface",
-    "Fix: campo Groq API Key adicionado nas Configuracoes (Detector VSL)",
-    "Fix: VSL Detector reconhece qualquer produto novo visualmente (sem lista hardcoded)",
-    "Fix: VSL Detector rate limit respeita retry-after real do Groq"
+    "VSL Detector: marcadores do Premiere criados automaticamente em cada produto",
+    "VSL Detector: batching de visao (8 frames por chamada) - rate limit impossivel",
+    "VSL Detector: thumbnails dos frames + clique move playhead do Premiere",
+    "Fix: Isolar Voz e Isolar Musica voltaram a funcionar",
+    "Fix: audio isolado sempre vai para track completamente vazia",
+    "Fix: importacao usa overwrite, nao mais ripple insert"
   ]
 }
