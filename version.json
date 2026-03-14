@@ -1,12 +1,14 @@
 {
-  "version": "1.7.5",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v1.7.5/NexxtEffects_v1.7.5.zxp",
+  "version": "2.0.0",
+  "url": "https://github.com/editnexxt-code/Nexxt-Effects/releases/download/v2.0.0/NexxtEffects_v2.0.0.zxp",
   "changelog": [
-    "🚀 UPDATE GIGANTE: Safe Ad Nexxt Inteligente & Modularizado!",
-    "🧠 Bugs corrigidos",
-    "🧠 Melhorias Visuais em Studio IA",
-    "🧠 Melhorias Visuais em Variabilizador",
-    " Legendas funcionando normalmente",
-    "Deu trabalho, mas, saiu!."
+    "🔍 VSL Detector: detecta produtos de suplementos em vídeos automaticamente",
+    "📍 VSL Detector: insere marcadores na timeline do Premiere",
+    "🎬 Fix: downloads da Galeria Web (YouTube/TikTok) corrigidos",
+    "📝 Fix: legendas MOGRT não pulavam mais frases",
+    "⏱️ Fix: timing do MOGRT frame-accurate",
+    "🕐 Fix: import SRT com offset correto do clipe",
+    "🔵 Fix: toggle de bleep visual funcionando",
+    "🖼️ Fix: cards da Galeria Web com URLs especiais"
   ]
 }
