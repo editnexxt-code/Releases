@@ -1,14 +1,10 @@
 {
-  "version": "2.0.0",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.0/NexxtEffects_v2.0.0.zxp",
+  "version": "2.0.1",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.1/NexxtEffects_v2.0.1.zxp",
   "changelog": [
-    "🔍 VSL Detector: detecta produtos de suplementos em vídeos automaticamente",
-    "📍 VSL Detector: insere marcadores na timeline do Premiere",
-    "🎬 Fix: downloads da Galeria Web (YouTube/TikTok) corrigidos",
-    "📝 Fix: legendas MOGRT não pulavam mais frases",
-    "⏱️ Fix: timing do MOGRT frame-accurate",
-    "🕐 Fix: import SRT com offset correto do clipe",
-    "🔵 Fix: toggle de bleep visual funcionando",
-    "🖼️ Fix: cards da Galeria Web com URLs especiais"
+    "Fix: removidos todos os caracteres especiais garbled da interface",
+    "Fix: campo Groq API Key adicionado nas Configuracoes (Detector VSL)",
+    "Fix: VSL Detector reconhece qualquer produto novo visualmente (sem lista hardcoded)",
+    "Fix: VSL Detector rate limit respeita retry-after real do Groq"
   ]
 }
