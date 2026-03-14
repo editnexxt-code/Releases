@@ -1,0 +1,9 @@
+{
+  "version": "2.0.2",
+  "url": "",
+  "changelog": [
+    "Versão inicial Mac: compatibilidade total, ffmpeg nativo, download funcionando"
+  ],
+  "platform": "mac",
+  "date": "2026-03-14"
+}
