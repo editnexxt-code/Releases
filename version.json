@@ -1,13 +1,12 @@
 {
-  "version": "2.0.4",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.4/NexxtEffects_v2.0.4.zxp",
+  "version": "2.0.5",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.5/NexxtEffects_v2.0.5.zxp",
   "changelog": [
+    "Fix: Captions - funciona sem precisar clicar no clipe (usa playhead como fallback)",
+    "Fix: Captions - extracao de templates voltou a funcionar (adm-zip corrigido)",
     "Fix: AI Director - downloads do YouTube voltaram a funcionar",
     "Fix: AI Director - clips de audio longos agora funcionam (cap 120s, 16kHz mono)",
-    "Fix: AI Director - downloads TikTok com erro HTTP exibem mensagem correta",
     "Fix: Captions - mensagens de erro sem prefixo ERRO| na notificacao",
-    "Fix: Captions - textos corrompidos nos botoes e notificacoes corrigidos",
-    "Fix: VSL Detector - estimativa de tempo nao mostrava NaN",
-    "Fix: Premiere.jsx - mensagens de erro sem caracteres especiais corrompidos"
+    "Fix: VSL Detector - estimativa de tempo nao mostrava NaN"
   ]
 }
