@@ -1,11 +1,11 @@
 {
   "mac": {
-    "version": "2.0.3",
-    "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/download/v2.0.3/NexxtEffectsBundle-2.0.3.zxp",
+    "version": "2.0.4",
+    "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/download/v2.0.4/NexxtEffectsBundle-2.0.4.zxp",
     "changelog": [
-      "Corrige plugin nao abrindo no Mac (PlayerDebugMode + ZXP assinado)",
-      "ffmpeg + ffprobe + yt-dlp bundlados — sem instalacao manual",
-      "Suporte Premiere Pro 2021-2026 (CEP 9-12)"
+      "Corrige plugin nao achando ffmpeg (Caminhos com espaco no Mac resolvidos)",
+      "Corrige Captions, VSL Detector, AI Director no MacOS",
+      "Download privado 100% nativo com cookies de sessao via yt-dlp"
     ]
   },
   "windows": {
