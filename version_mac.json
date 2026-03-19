@@ -1,9 +1,6 @@
 {
-  "version": "2.0.3",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.3-mac/NexxtEffectsBundle_v2.0.3_mac.zxp",
-  "changelog": [
-    "Fix Mac critico: plugin nao respondia ao clicar; thumbnails e MOGRTs corrigidos"
-  ],
-  "platform": "mac",
+  "version": "2.0.8",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.8-mac/NexxtEffectsBundle_v2.0.8_mac.zxp",
+  "changelog": "Fix instalacao MOGRTs (botao reinstalar funcional + URL v1.1.1), VSL detecta potes HunterPower/Slim Jara/qualquer produto, limpeza de arquivos desnecessarios no ZXP",
   "date": "2026-03-19"
 }
