@@ -1,30 +1,28 @@
 {
-  "version": "2.0.6",
-  "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/tag/v2.0.6",
+  "version": "2.0.7",
+  "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/tag/v2.0.7",
   "changelog": [
-    "Nova Atualização Crítica (v2.0.6) liberada!",
-    "Por favor, instale esta versão para obter a remoção automática da quarentena da Apple,",
-    "e consertos críticos no Detector de VSL e AI Director."
+    "Nova Atualização Crítica (v2.0.7) liberada!",
+    "Por favor, instale esta versão para obter a ferramenta Detector de Vídeos de Vendas 100% consertada,",
+    "com a nova Inteligência em Texto LLaMA 70B incorporada."
   ],
   "mac": {
-    "version": "2.0.6",
-    "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/download/v2.0.6/NexxtEffectsBundle-2.0.6.zxp",
+    "version": "2.0.7",
+    "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/download/v2.0.7/NexxtEffectsBundle-2.0.7.zxp",
     "changelog": [
-      "Nova correção CRÍTICA para usuários de Mac (Erro: FFmpeg is not trusted/damaged)",
-      "Remoção automática da quarentena da Apple nos binários instalados via ZXP",
-      "Detector de Produtos (VSL Detector) consertado (erros não identificados na versão anterior)",
-      "Leitura de texto aprimorada usando inteligência gratuita do Groq na transcrição",
-      "Caminhos do macOS atualizados para respeitar pastas de HDs e usuários"
+      "Detector de Produtos (VSL Detector) reconstruído do zero",
+      "Leitura de áudio transacionou para o gigante Groq (LLaMA 70B)",
+      "Modelo de visão hallucinado restaurado usando cloud LLaMA Vision",
+      "Bug fatal no recorte de texto aos 30 segundos corrigido para 2h"
     ]
   },
   "windows": {
-    "version": "2.0.6",
-    "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/download/v2.0.6/NexxtEffectsBundle-2.0.6.zxp",
+    "version": "2.0.7",
+    "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/download/v2.0.7/NexxtEffectsBundle-2.0.7.zxp",
     "changelog": [
-      "Atualização GERAL: Versão Unificada 2.0.6",
-      "Detector de Produtos (VSL Detector) consertado (erros que impediam o funcionamento)",
-      "Leitura de texto agora utiliza o Groq gratuitamente (Llama Vision + Llama 3 70B)",
-      "Downloads e AI Director mais robustos."
+      "Detector de Produtos (VSL Detector) reconstruído do zero",
+      "Aba de VSL muito mais assertiva para procurar encapsulados no vídeo falado",
+      "Remoção de travamentos do sistema de imagem."
     ]
   }
 }
