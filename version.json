@@ -1,4 +1,11 @@
 {
+  "version": "2.0.5",
+  "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases",
+  "changelog": [
+    "Nova Atualização Crítica do Nexxt Effects Bundle (v2.0.5/v2.0.4) liberada!",
+    "Por favor, atualize o seu plugin para obter correções vitais de compatibilidade,",
+    "melhorias do AI Director e do Download Privado."
+  ],
   "mac": {
     "version": "2.0.4",
     "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/download/v2.0.4/NexxtEffectsBundle-2.0.4.zxp",
