@@ -1,9 +1,9 @@
 {
-  "version": "2.0.2",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.2-mac/NexxtEffectsBundle_v2.0.2_mac.zxp",
+  "version": "2.0.3",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.3-mac/NexxtEffectsBundle_v2.0.3_mac.zxp",
   "changelog": [
-    "Versão inicial Mac: compatibilidade total, ffmpeg nativo, código protegido"
+    "Fix Mac critico: plugin nao respondia ao clicar; thumbnails e MOGRTs corrigidos"
   ],
   "platform": "mac",
-  "date": "2026-03-14"
+  "date": "2026-03-19"
 }
