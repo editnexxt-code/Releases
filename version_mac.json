@@ -1,6 +1,6 @@
 {
   "version": "2.0.8",
   "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.8-mac/NexxtEffectsBundle_v2.0.8_mac.zxp",
-  "changelog": "Fix instalacao MOGRTs (botao reinstalar funcional + URL v1.1.1), VSL detecta potes HunterPower/Slim Jara/qualquer produto, limpeza de arquivos desnecessarios no ZXP",
+  "changelog": "VSL Detector reconstruido: detecta qualquer produto/pote na tela (Llama 4 Scout, 90 frames, cobertura total); botao Reinstalar MOGRTs funcional com download automatico; correcoes gerais Mac",
   "date": "2026-03-19"
 }
