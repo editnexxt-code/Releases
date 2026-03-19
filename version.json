@@ -1,12 +1,23 @@
 {
-  "version": "2.0.5",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.5/NexxtEffects_v2.0.5.zxp",
-  "changelog": [
-    "Fix: Captions - funciona sem precisar clicar no clipe (usa playhead como fallback)",
-    "Fix: Captions - extracao de templates voltou a funcionar (adm-zip corrigido)",
-    "Fix: AI Director - downloads do YouTube voltaram a funcionar",
-    "Fix: AI Director - clips de audio longos agora funcionam (cap 120s, 16kHz mono)",
-    "Fix: Captions - mensagens de erro sem prefixo ERRO| na notificacao",
-    "Fix: VSL Detector - estimativa de tempo nao mostrava NaN"
-  ]
+  "mac": {
+    "version": "2.0.3",
+    "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/download/v2.0.3/NexxtEffectsBundle-2.0.3.zxp",
+    "changelog": [
+      "Corrige plugin nao abrindo no Mac (PlayerDebugMode + ZXP assinado)",
+      "ffmpeg + ffprobe + yt-dlp bundlados — sem instalacao manual",
+      "Suporte Premiere Pro 2021-2026 (CEP 9-12)"
+    ]
+  },
+  "windows": {
+    "version": "2.0.5",
+    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.5/NexxtEffects_v2.0.5.zxp",
+    "changelog": [
+      "Fix: Captions - funciona sem precisar clicar no clipe",
+      "Fix: Captions - extracao de templates voltou a funcionar",
+      "Fix: AI Director - downloads do YouTube voltaram a funcionar",
+      "Fix: AI Director - clips de audio longos agora funcionam",
+      "Fix: Captions - mensagens de erro sem prefixo ERRO|",
+      "Fix: VSL Detector - estimativa de tempo nao mostrava NaN"
+    ]
+  }
 }
