@@ -1,12 +1,13 @@
 {
-  "version": "2.0.2",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.2/NexxtEffects_v2.0.2.zxp",
+  "version": "2.0.4",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.4/NexxtEffects_v2.0.4.zxp",
   "changelog": [
-    "VSL Detector: marcadores do Premiere criados automaticamente em cada produto",
-    "VSL Detector: batching de visao (8 frames por chamada) - rate limit impossivel",
-    "VSL Detector: thumbnails dos frames + clique move playhead do Premiere",
-    "Fix: Isolar Voz e Isolar Musica voltaram a funcionar",
-    "Fix: audio isolado sempre vai para track completamente vazia",
-    "Fix: importacao usa overwrite, nao mais ripple insert"
+    "Fix: AI Director - downloads do YouTube voltaram a funcionar",
+    "Fix: AI Director - clips de audio longos agora funcionam (cap 120s, 16kHz mono)",
+    "Fix: AI Director - downloads TikTok com erro HTTP exibem mensagem correta",
+    "Fix: Captions - mensagens de erro sem prefixo ERRO| na notificacao",
+    "Fix: Captions - textos corrompidos nos botoes e notificacoes corrigidos",
+    "Fix: VSL Detector - estimativa de tempo nao mostrava NaN",
+    "Fix: Premiere.jsx - mensagens de erro sem caracteres especiais corrompidos"
   ]
 }
