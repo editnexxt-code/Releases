@@ -1,30 +1,30 @@
 {
-  "version": "2.0.5",
-  "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases",
+  "version": "2.0.6",
+  "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/tag/v2.0.6",
   "changelog": [
-    "Nova Atualização Crítica do Nexxt Effects Bundle (v2.0.5/v2.0.4) liberada!",
-    "Por favor, atualize o seu plugin para obter correções vitais de compatibilidade,",
-    "melhorias do AI Director e do Download Privado."
+    "Nova Atualização Crítica (v2.0.6) liberada!",
+    "Por favor, instale esta versão para obter a remoção automática da quarentena da Apple,",
+    "e consertos críticos no Detector de VSL e AI Director."
   ],
   "mac": {
-    "version": "2.0.4",
-    "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/download/v2.0.4/NexxtEffectsBundle-2.0.4.zxp",
+    "version": "2.0.6",
+    "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/download/v2.0.6/NexxtEffectsBundle-2.0.6.zxp",
     "changelog": [
-      "Corrige plugin nao achando ffmpeg (Caminhos com espaco no Mac resolvidos)",
-      "Corrige Captions, VSL Detector, AI Director no MacOS",
-      "Download privado 100% nativo com cookies de sessao via yt-dlp"
+      "Nova correção CRÍTICA para usuários de Mac (Erro: FFmpeg is not trusted/damaged)",
+      "Remoção automática da quarentena da Apple nos binários instalados via ZXP",
+      "Detector de Produtos (VSL Detector) consertado (erros não identificados na versão anterior)",
+      "Leitura de texto aprimorada usando inteligência gratuita do Groq na transcrição",
+      "Caminhos do macOS atualizados para respeitar pastas de HDs e usuários"
     ]
   },
   "windows": {
-    "version": "2.0.5",
-    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.5/NexxtEffects_v2.0.5.zxp",
+    "version": "2.0.6",
+    "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/download/v2.0.6/NexxtEffectsBundle-2.0.6.zxp",
     "changelog": [
-      "Fix: Captions - funciona sem precisar clicar no clipe",
-      "Fix: Captions - extracao de templates voltou a funcionar",
-      "Fix: AI Director - downloads do YouTube voltaram a funcionar",
-      "Fix: AI Director - clips de audio longos agora funcionam",
-      "Fix: Captions - mensagens de erro sem prefixo ERRO|",
-      "Fix: VSL Detector - estimativa de tempo nao mostrava NaN"
+      "Atualização GERAL: Versão Unificada 2.0.6",
+      "Detector de Produtos (VSL Detector) consertado (erros que impediam o funcionamento)",
+      "Leitura de texto agora utiliza o Groq gratuitamente (Llama Vision + Llama 3 70B)",
+      "Downloads e AI Director mais robustos."
     ]
   }
 }
