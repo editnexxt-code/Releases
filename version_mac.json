@@ -1,6 +1,9 @@
 {
-  "version": "2.0.8",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.8-mac/NexxtEffectsBundle_v2.0.8_mac.zxp",
-  "changelog": "VSL Detector reconstruido: detecta qualquer produto/pote na tela (Llama 4 Scout, 90 frames, cobertura total); botao Reinstalar MOGRTs funcional com download automatico; correcoes gerais Mac",
-  "date": "2026-03-19"
+  "version": "2.0.9",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.9-mac/NexxtEffects_v2.0.9_mac.pkg",
+  "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.9-mac/NexxtUpdate_v2.0.9_mac.zip",
+  "changelog": [
+    "Instalador PKG Mac com todos os assets incluidos; atualizacao automatica sem sair do Premiere"
+  ],
+  "date": "2026-03-20"
 }
