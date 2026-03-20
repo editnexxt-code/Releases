@@ -1,9 +1,4 @@
 {
-  "version": "2.1.0",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.0-mac/NexxtEffects_v2.1.0_mac.pkg",
-  "changelog": [
-    "Fix critico: plugin clicavel novamente; auto-update corrigido; transcricao de audio funcionando"
-  ],
   "mac": {
     "version": "2.1.0",
     "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.0-mac/NexxtEffects_v2.1.0_mac.pkg",
