@@ -1,19 +1,20 @@
 {
-  "version": "2.0.7",
-  "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/tag/v2.0.7",
+  "version": "2.1.0",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.0-mac/NexxtEffects_v2.1.0_mac.pkg",
   "changelog": [
-    "Nova Atualização Crítica (v2.0.7) liberada!",
-    "Por favor, instale esta versão para obter a ferramenta Detector de Vídeos de Vendas 100% consertada,",
-    "com a nova Inteligência em Texto LLaMA 70B incorporada."
+    "Fix critico: plugin clicavel novamente",
+    "Transcricao de audio corrigida",
+    "Chave Replicate configuravel nas Settings"
   ],
   "mac": {
-    "version": "2.0.7",
-    "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/download/v2.0.7/NexxtEffectsBundle-2.0.7.zxp",
+    "version": "2.1.0",
+    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.0-mac/NexxtEffects_v2.1.0_mac.pkg",
+    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.0-mac/NexxtUpdate_v2.1.0_mac.zip",
     "changelog": [
-      "Detector de Produtos (VSL Detector) reconstruído do zero",
-      "Leitura de áudio transacionou para o gigante Groq (LLaMA 70B)",
-      "Modelo de visão hallucinado restaurado usando cloud LLaMA Vision",
-      "Bug fatal no recorte de texto aos 30 segundos corrigido para 2h"
+      "Fix critico: plugin clicavel novamente",
+      "Transcricao de audio (AI Director e VSL) corrigida",
+      "Chave Replicate configuravel nas Configuracoes",
+      "Versao correta exibida no painel"
     ]
   },
   "windows": {
