@@ -5,5 +5,14 @@
   "changelog": [
     "Fix critico: plugin nao clicavel resolvido; transcricao de audio corrigida; chave Replicate configuravel nas Settings; versao correta exibida no painel"
   ],
-  "date": "2026-03-20"
+  "date": "2026-03-20",
+  "mac": {
+    "version": "2.1.0",
+    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.0-mac/NexxtEffects_v2.1.0_mac.pkg",
+    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.0-mac/NexxtUpdate_v2.1.0_mac.zip",
+    "changelog": [
+      "Fix critico: plugin clicavel novamente; auto-update corrigido; transcricao de audio funcionando"
+    ],
+    "date": "2026-03-20"
+  }
 }
