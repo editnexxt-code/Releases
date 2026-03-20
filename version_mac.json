@@ -3,7 +3,7 @@
   "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.9-mac/NexxtEffects_v2.0.9_mac.pkg",
   "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.9-mac/NexxtUpdate_v2.0.9_mac.zip",
   "changelog": [
-    "Instalador PKG Mac com todos os assets incluidos; atualizacao automatica sem sair do Premiere"
+    "Fix critico: plugin nao clicavel resolvido; transcricao de audio corrigida; chave Replicate configuravel nas Settings; versao correta exibida no painel"
   ],
   "date": "2026-03-20"
 }
