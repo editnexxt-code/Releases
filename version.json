@@ -1,20 +1,13 @@
 {
-  "mac": {
-    "version": "2.1.0",
-    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.0-mac/NexxtEffects_v2.1.0_mac.pkg",
-    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.0-mac/NexxtUpdate_v2.1.0_mac.zip",
-    "changelog": [
-      "Fix critico: plugin clicavel novamente; auto-update corrigido; transcricao de audio funcionando"
-    ],
-    "date": "2026-03-20"
-  },
-  "windows": {
-    "version": "2.0.7",
-    "url": "https://github.com/editnexxt-code/nexxt-effects-bundle/releases/download/v2.0.7/NexxtEffectsBundle-2.0.7.zxp",
-    "changelog": [
-      "Detector de Produtos (VSL Detector) reconstruído do zero",
-      "Aba de VSL muito mais assertiva para procurar encapsulados no vídeo falado",
-      "Remoção de travamentos do sistema de imagem."
-    ]
-  }
+  "version": "2.0.6",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.6/NexxtEffects_v2.0.6.zxp",
+  "changelog": [
+    "Fix: Captions - funciona sem precisar clicar no clipe (usa playhead como fallback)",
+    "Fix: Captions - extracao de templates voltou a funcionar (adm-zip corrigido)",
+    "Fix: AI Director - downloads do YouTube voltaram a funcionar",
+    "Fix: AI Director - clips de audio longos agora funcionam (cap 120s, 16kHz mono)",
+    "Fix: Captions - mensagens de erro sem prefixo ERRO| na notificacao",
+    "Fix: VSL Detector - estimativa de tempo nao mostrava NaN",
+    "Fix: Build - ZXP limpo, apenas arquivos essenciais de producao"
+  ]
 }
