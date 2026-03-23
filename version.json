@@ -1,10 +1,11 @@
 {
-  "version": "2.0.8",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.8/NexxtEffects_v2.0.8.zxp",
+  "version": "2.0.9",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.9/NexxtEffects_v2.0.9.zxp",
   "changelog": [
-    "Fix: VSL Detector - detecta produto em TODAS as formas (3D renders, price overlays, lower-thirds, bundles, fisico)",
-    "Fix: VSL Detector - agora mostra TODOS os marcadores por ocorrencia (50+ marcadores, nao so 1 por produto)",
-    "Fix: VSL Detector - audio reconhece nomes em ingles dentro de transcricao em portugues",
-    "Fix: VSL Detector - nomes como Sugar Defender e Blood Balance nao eram bloqueados na analise de frequencia"
+    "Fix: Isolar Voz/Musica - corrigido crash quando duracao do clipe nao era detectada pelo Premiere",
+    "Fix: Isolar Voz/Musica - upload via base64 (Files API Replicate causava falha silenciosa no CEP)",
+    "Fix: Isolar Voz/Musica - modelo Demucs atualizado para htdemucs_ft (mais preciso)",
+    "Fix: SRT AI Review - migrado para Groq llama-3.3-70b (mais rapido e preciso que Replicate)",
+    "Fix: AI Director - atualizado para Llama 4 Scout com fallback Gemini"
   ]
 }
