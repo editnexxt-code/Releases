@@ -18,6 +18,7 @@
       "Fix: Timeout de 8s em chamadas ao servidor",
       "Fix: Device token HMAC para autenticacao mais segura"
     ],
-    "date": "2026-03-23"
+    "date": "2026-03-23",
+    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.2-mac/NexxtEffects_v2.1.2_mac.zxp"
   }
 }
