@@ -9,9 +9,10 @@
     "Fix: AI Director - atualizado para Llama 4 Scout com fallback Gemini"
   ],
   "mac": {
-    "version": "2.1.1",
-    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.1-mac/NexxtUpdate_v2.1.1_mac.zip",
+    "version": "2.1.2",
+    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.2-mac/NexxtUpdate_v2.1.2_mac.zip",
     "changelog": [
+      "Fix CRITICO: Auto-update corrigido para Mac com plugin instalado no bundle do app (SIP)",
       "Fix CRITICO: Bypass de autenticacao offline corrigido (graca de 7 dias)",
       "Fix CRITICO: Quota de geracao nao pode mais ser ignorada offline",
       "Fix: Timeout de 8s em chamadas ao servidor",
