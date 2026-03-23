@@ -1,13 +1,10 @@
 {
-  "version": "2.0.6",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.6/NexxtEffects_v2.0.6.zxp",
+  "version": "2.0.7",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.7/NexxtEffects_v2.0.7.zxp",
   "changelog": [
-    "Fix: Captions - funciona sem precisar clicar no clipe (usa playhead como fallback)",
-    "Fix: Captions - extracao de templates voltou a funcionar (adm-zip corrigido)",
-    "Fix: AI Director - downloads do YouTube voltaram a funcionar",
-    "Fix: AI Director - clips de audio longos agora funcionam (cap 120s, 16kHz mono)",
-    "Fix: Captions - mensagens de erro sem prefixo ERRO| na notificacao",
-    "Fix: VSL Detector - estimativa de tempo nao mostrava NaN",
-    "Fix: Build - ZXP limpo, apenas arquivos essenciais de producao"
+    "Fix: VSL Detector - detecta produto em TODAS as formas (3D renders, price overlays, lower-thirds, bundles, fisico)",
+    "Fix: VSL Detector - mostra TODOS os marcadores de cada aparicao (50+ marcadores, nao so 1 por produto)",
+    "Fix: VSL Detector - prompt de audio agora reconhece nomes de produto em ingles dentro de transcricao PT",
+    "Fix: VSL Detector - analise de frequencia nao bloqueava mais nomes como 'Sugar Defender', 'Blood Balance'"
   ]
 }
