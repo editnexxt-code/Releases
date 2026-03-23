@@ -1,10 +1,10 @@
 {
-  "version": "2.0.7",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.7/NexxtEffects_v2.0.7.zxp",
+  "version": "2.0.8",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.8/NexxtEffects_v2.0.8.zxp",
   "changelog": [
     "Fix: VSL Detector - detecta produto em TODAS as formas (3D renders, price overlays, lower-thirds, bundles, fisico)",
-    "Fix: VSL Detector - mostra TODOS os marcadores de cada aparicao (50+ marcadores, nao so 1 por produto)",
-    "Fix: VSL Detector - prompt de audio agora reconhece nomes de produto em ingles dentro de transcricao PT",
-    "Fix: VSL Detector - analise de frequencia nao bloqueava mais nomes como 'Sugar Defender', 'Blood Balance'"
+    "Fix: VSL Detector - agora mostra TODOS os marcadores por ocorrencia (50+ marcadores, nao so 1 por produto)",
+    "Fix: VSL Detector - audio reconhece nomes em ingles dentro de transcricao em portugues",
+    "Fix: VSL Detector - nomes como Sugar Defender e Blood Balance nao eram bloqueados na analise de frequencia"
   ]
 }
