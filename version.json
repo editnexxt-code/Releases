@@ -7,5 +7,16 @@
     "Fix: Isolar Voz/Musica - modelo Demucs atualizado para htdemucs_ft (mais preciso)",
     "Fix: SRT AI Review - migrado para Groq llama-3.3-70b (mais rapido e preciso que Replicate)",
     "Fix: AI Director - atualizado para Llama 4 Scout com fallback Gemini"
-  ]
+  ],
+  "mac": {
+    "version": "2.1.1",
+    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.1-mac/NexxtUpdate_v2.1.1_mac.zip",
+    "changelog": [
+      "Fix CRITICO: Bypass de autenticacao offline corrigido (graca de 7 dias)",
+      "Fix CRITICO: Quota de geracao nao pode mais ser ignorada offline",
+      "Fix: Timeout de 8s em chamadas ao servidor",
+      "Fix: Device token HMAC para autenticacao mais segura"
+    ],
+    "date": "2026-03-23"
+  }
 }
