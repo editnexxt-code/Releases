@@ -1,0 +1,174 @@
+name: Build Mac PKG
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version (e.g. 2.1.2)'
+        required: true
+        default: '2.1.2'
+      changelog:
+        description: 'Changelog (separado por ;)'
+        required: true
+        default: 'Fix CRITICO: Auto-update SIP; Fix bypass offline; Fix quota offline'
+
+jobs:
+  build-pkg:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Download assets from release
+        run: |
+          TAG="v${{ github.event.inputs.version }}-mac"
+          VERSION="${{ github.event.inputs.version }}"
+          mkdir -p /tmp/nexxt_build/plugin /tmp/nexxt_build/mogrts
+
+          echo "Baixando update ZIP (codigo fonte)..."
+          curl -fsSL -L "https://github.com/editnexxt-code/Releases/releases/download/${TAG}/NexxtUpdate_v${VERSION}_mac.zip" -o /tmp/nexxt_src.zip
+          cd /tmp/nexxt_build/plugin && unzip -q /tmp/nexxt_src.zip
+
+          echo "Baixando tools (ffmpeg/ffprobe/yt-dlp)..."
+          curl -fsSL -L "https://github.com/editnexxt-code/Releases/releases/download/${TAG}/nexxt_tools_mac.zip" -o /tmp/nexxt_tools.zip
+          cd /tmp/nexxt_build/plugin && unzip -q /tmp/nexxt_tools.zip
+          chmod +x /tmp/nexxt_build/plugin/tools/ffmpeg \
+                   /tmp/nexxt_build/plugin/tools/ffprobe \
+                   /tmp/nexxt_build/plugin/tools/yt-dlp
+
+          echo "Baixando vari-assets (940MB)..."
+          curl -fsSL -L "https://github.com/editnexxt-code/Releases/releases/download/${TAG}/nexxt_vari_assets.zip" -o /tmp/nexxt_va.zip
+          cd /tmp/nexxt_build/plugin && unzip -q /tmp/nexxt_va.zip
+
+          echo "Baixando MOGRTs..."
+          curl -fsSL -L "https://github.com/editnexxt-code/Releases/releases/download/v1.1.1/Nexxt_Mogrts.zip" -o /tmp/nexxt_mogrts.zip || true
+          cd /tmp/nexxt_build/mogrts && unzip -q /tmp/nexxt_mogrts.zip 2>/dev/null || true
+
+          echo "--- Conteudo final do plugin:"
+          ls /tmp/nexxt_build/plugin/
+          du -sh /tmp/nexxt_build/plugin/ /tmp/nexxt_build/plugin/vari-assets 2>/dev/null || true
+
+      - name: Create postinstall script
+        run: |
+          mkdir -p /tmp/nexxt_scripts
+          cat > /tmp/nexxt_scripts/postinstall << 'POSTEOF'
+          #!/usr/bin/env bash
+          set -e
+          CURRENT_USER=$(stat -f '%Su' /dev/console 2>/dev/null || echo "${SUDO_USER:-$USER}")
+          USER_HOME=$(dscl . -read "/Users/$CURRENT_USER" NFSHomeDirectory 2>/dev/null | awk '{print $2}')
+          [ -z "$USER_HOME" ] && USER_HOME="/Users/$CURRENT_USER"
+          DEST="$USER_HOME/Library/Application Support/Adobe/CEP/extensions/Nexxt Effects Bundle"
+          MOGRT_DEST="$USER_HOME/Documents/Nexxt_Mogrts"
+          PAYLOAD="/private/tmp/nexxt_pkg_payload"
+          rm -rf "$DEST" && mkdir -p "$DEST"
+          cp -r "$PAYLOAD/plugin/." "$DEST/"
+          if [ -d "$PAYLOAD/mogrts" ] && [ "$(ls -A "$PAYLOAD/mogrts" 2>/dev/null)" ]; then
+            mkdir -p "$MOGRT_DEST"
+            [ -z "$(ls -A "$MOGRT_DEST" 2>/dev/null)" ] && cp -r "$PAYLOAD/mogrts/." "$MOGRT_DEST/"
+          fi
+          xattr -cr "$DEST" 2>/dev/null || true
+          [ -d "$MOGRT_DEST" ] && xattr -cr "$MOGRT_DEST" 2>/dev/null || true
+          chmod +x "$DEST/tools/ffmpeg" "$DEST/tools/ffprobe" "$DEST/tools/yt-dlp" 2>/dev/null || true
+          for v in 9 10 11 12 13; do
+            sudo -u "$CURRENT_USER" defaults write "com.adobe.CSXS.$v" PlayerDebugMode 1 2>/dev/null || true
+          done
+          rm -rf "$USER_HOME/Library/Caches/CSXS" "$USER_HOME/Library/Caches/Adobe/CSXS" 2>/dev/null || true
+          chown -R "$CURRENT_USER" "$DEST" 2>/dev/null || true
+          [ -d "$MOGRT_DEST" ] && chown -R "$CURRENT_USER" "$MOGRT_DEST" 2>/dev/null || true
+          rm -rf "$PAYLOAD" 2>/dev/null || true
+          exit 0
+          POSTEOF
+          chmod +x /tmp/nexxt_scripts/postinstall
+
+      - name: Build PKG with pkgbuild + productbuild
+        run: |
+          VERSION="${{ github.event.inputs.version }}"
+          PKG_NAME="NexxtEffects_v${VERSION}_mac.pkg"
+
+          mkdir -p /tmp/nexxt_payload
+          cp -r /tmp/nexxt_build/plugin /tmp/nexxt_payload/plugin
+          if [ "$(ls -A /tmp/nexxt_build/mogrts 2>/dev/null)" ]; then
+            cp -r /tmp/nexxt_build/mogrts /tmp/nexxt_payload/mogrts
+          else
+            mkdir -p /tmp/nexxt_payload/mogrts
+          fi
+
+          echo "Rodando pkgbuild..."
+          pkgbuild \
+            --root /tmp/nexxt_payload \
+            --scripts /tmp/nexxt_scripts \
+            --identifier com.nexxt.effects.installer \
+            --version "$VERSION" \
+            --install-location /private/tmp/nexxt_pkg_payload \
+            /tmp/component.pkg
+
+          echo "Criando distribution.xml..."
+          cat > /tmp/distribution.xml << DISTEOF
+          <?xml version="1.0" encoding="utf-8"?>
+          <installer-gui-script minSpecVersion="2">
+              <title>Nexxt Effects Bundle</title>
+              <options customize="never" require-scripts="false" allow-external-scripts="false"/>
+              <domains enable_anywhere="false" enable_currentUserHome="true" enable_localSystem="false"/>
+              <pkg-ref id="com.nexxt.effects.installer"/>
+              <choices-outline><line choice="default"/></choices-outline>
+              <choice id="default" title="Nexxt Effects Bundle">
+                  <pkg-ref id="com.nexxt.effects.installer"/>
+              </choice>
+              <pkg-ref id="com.nexxt.effects.installer" version="0" onConclusion="none">component.pkg</pkg-ref>
+          </installer-gui-script>
+          DISTEOF
+
+          echo "Rodando productbuild..."
+          productbuild \
+            --distribution /tmp/distribution.xml \
+            --package-path /tmp \
+            /tmp/"$PKG_NAME"
+
+          ls -lh /tmp/"$PKG_NAME"
+          echo "PKG_NAME=$PKG_NAME" >> $GITHUB_ENV
+          echo "PKG_PATH=/tmp/$PKG_NAME" >> $GITHUB_ENV
+
+      - name: Upload PKG to release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="v${{ github.event.inputs.version }}-mac"
+          gh release upload "$TAG" "${{ env.PKG_PATH }}" \
+            --repo editnexxt-code/Releases --clobber
+          echo "PKG publicado no release $TAG"
+
+      - name: Update version.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="${{ github.event.inputs.version }}"
+          TAG="v${VERSION}-mac"
+          TODAY=$(date +%Y-%m-%d)
+          PKG_URL="https://github.com/editnexxt-code/Releases/releases/download/${TAG}/NexxtEffects_v${VERSION}_mac.pkg"
+          UPDATE_URL="https://github.com/editnexxt-code/Releases/releases/download/${TAG}/NexxtUpdate_v${VERSION}_mac.zip"
+          CL="${{ github.event.inputs.changelog }}"
+
+          VERSION="$VERSION" PKG_URL="$PKG_URL" UPDATE_URL="$UPDATE_URL" CL="$CL" TODAY="$TODAY" \
+          node -e "
+            const fs = require('fs');
+            const v = JSON.parse(fs.readFileSync('version.json','utf8'));
+            v.mac = {
+              version:    process.env.VERSION,
+              url:        process.env.PKG_URL,
+              update_url: process.env.UPDATE_URL,
+              changelog:  process.env.CL.split(';').map(s=>s.trim()).filter(Boolean),
+              date:       process.env.TODAY
+            };
+            fs.writeFileSync('version.json', JSON.stringify(v,null,2)+'\n');
+            console.log('version.json atualizado — mac.version=' + v.mac.version);
+          "
+          git config user.email 'editnexxt@gmail.com'
+          git config user.name 'editnexxt-code'
+          git add version.json
+          git commit -m "release: Mac v${VERSION} PKG" || true
+          git push
