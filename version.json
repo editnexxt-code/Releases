@@ -1,6 +1,6 @@
 {
   "version": "2.0.9",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.9/NexxtEffects_v2.0.9.zxp",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.9/NexxtEffectsBundle_Setup_v2.0.9.exe",
   "changelog": [
     "Fix: Isolar Voz/Musica - corrigido crash quando duracao do clipe nao era detectada pelo Premiere",
     "Fix: Isolar Voz/Musica - upload via base64 (Files API Replicate causava falha silenciosa no CEP)",
