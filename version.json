@@ -1,6 +1,25 @@
 {
   "version": "2.0.12",
   "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.12/NexxtEffectsBundle_Setup_v2.0.12.exe",
-  "changelog": "v2.0.12: VSL Detector fix + Isolador travamento + Media Downloader corte de tempo",
-  "date": "2026-04-21"
+  "changelog": [
+    "Fix CRITICO: VSL Detector - erro FFmpeg corrigido (video offline ou fora do intervalo)",
+    "Fix CRITICO: Isolador Voz/Musica - travamento no download resolvido",
+    "Fix CRITICO: Media Downloader - corte de tempo (entrada/saida) agora funciona corretamente",
+    "AI Director: Preview de video ao passar o mouse nos cards (ate 5 segundos)",
+    "AI Director: Agente QA mais preciso com formato ID-based",
+    "AI Director: Pipeline FFmpeg apos download - H.264 + AAC + faststart"
+  ],
+  "mac": {
+    "version": "2.1.2",
+    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.2-mac/NexxtUpdate_v2.1.2_mac.zip",
+    "changelog": [
+      "Fix CRITICO: Auto-update corrigido para Mac com plugin instalado no bundle do app (SIP)",
+      "Fix CRITICO: Bypass de autenticacao offline corrigido",
+      "Fix CRITICO: Quota de geracao nao pode mais ser ignorada offline",
+      "Fix: Timeout de 8s em chamadas ao servidor",
+      "Fix: Device token HMAC para autenticacao mais segura"
+    ],
+    "date": "2026-03-23",
+    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.2-mac/NexxtEffects_v2.1.2_mac.zxp"
+  }
 }
