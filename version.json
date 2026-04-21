@@ -1,12 +1,13 @@
 {
-  "version": "2.0.9",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.9/NexxtEffectsBundle_Setup_v2.0.9.exe",
+  "version": "2.0.10",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.10/NexxtEffectsBundle_Setup_v2.0.10.exe",
   "changelog": [
-    "Fix: Isolar Voz/Musica - corrigido crash quando duracao do clipe nao era detectada pelo Premiere",
-    "Fix: Isolar Voz/Musica - upload via base64 (Files API Replicate causava falha silenciosa no CEP)",
-    "Fix: Isolar Voz/Musica - modelo Demucs atualizado para htdemucs_ft (mais preciso)",
-    "Fix: SRT AI Review - migrado para Groq llama-3.3-70b (mais rapido e preciso que Replicate)",
-    "Fix: AI Director - atualizado para Llama 4 Scout com fallback Gemini"
+    "Fix CRITICO: Premiere.jsx agora carrega corretamente (obfuscacao ES6 incompativel com ExtendScript removida)",
+    "Fix CRITICO: adm-zip disponivel corretamente apos instalacao (package.json preservado)",
+    "Fix: Variabilizador - assets extraidos automaticamente na primeira abertura",
+    "Fix: Media Downloader - feedback correto ao importar para timeline",
+    "Fix: AI Director / VSL Detector - mensagem de erro clara quando ExtendScript falha",
+    "Fix: require() de modulos Node resolvido corretamente em scripts injetados pelo loader"
   ],
   "mac": {
     "version": "2.1.2",
