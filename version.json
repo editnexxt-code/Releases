@@ -1,13 +1,14 @@
 {
-  "version": "2.0.12",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.12/NexxtEffectsBundle_Setup_v2.0.12.exe",
+  "version": "2.0.14",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.14/NexxtEffectsBundle_Setup_v2.0.14.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.14/NexxtEffects_delta_v2.0.14.zip",
   "changelog": [
-    "Fix CRITICO: VSL Detector - erro FFmpeg corrigido (video offline ou fora do intervalo)",
-    "Fix CRITICO: Isolador Voz/Musica - travamento no download resolvido",
-    "Fix CRITICO: Media Downloader - corte de tempo (entrada/saida) agora funciona corretamente",
-    "AI Director: Preview de video ao passar o mouse nos cards (ate 5 segundos)",
-    "AI Director: Agente QA mais preciso com formato ID-based",
-    "AI Director: Pipeline FFmpeg apos download - H.264 + AAC + faststart"
+    "VSL Detector: deteccao visual com GPU — CLIP analisa 3600 frames em intervalos de 0.5s (cobertura total do video)",
+    "VSL Detector: EasyOCR le legendas, banners e lower-thirds diretamente nos frames — produto detectado pelo texto na tela",
+    "VSL Detector: deteccao fonetica com Soundex — variantes fonograficas do nome do produto encontradas no audio",
+    "VSL Detector: log detalhado por metodo — CLIP visual, CLIP texto, OCR, histograma",
+    "Auto-update: atualizacoes rapidas via delta — usuarios ja instalados recebem apenas os arquivos alterados (~5MB em vez de ~100MB)",
+    "Instalacao automatica de dependencias GPU: transformers, EasyOCR instalados automaticamente na primeira vez"
   ],
   "mac": {
     "version": "2.1.2",
