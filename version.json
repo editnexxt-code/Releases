@@ -22,5 +22,15 @@
     ],
     "date": "2026-03-23",
     "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.2-mac/NexxtEffects_v2.1.2_mac.zxp"
+  },
+  "optional_assets": {
+    "captions": {
+      "Nexxt_Mogrts.zip": "https://github.com/editnexxt-code/Releases/releases/download/v-assets/Nexxt_Mogrts.zip",
+      "size_mb": 111
+    },
+    "variabilizador": {
+      "vari-assets-pack.zip": "https://github.com/editnexxt-code/Releases/releases/download/v-assets/vari-assets-pack.zip",
+      "size_mb": 942
+    }
   }
 }
