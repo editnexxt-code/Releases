@@ -32,5 +32,9 @@
       "vari-assets-pack.zip": "https://github.com/editnexxt-code/Releases/releases/download/v-assets/vari-assets-pack.zip",
       "size_mb": 942
     }
+  },
+  "optional_modules": {
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.14/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.14/variabilizador.nxe"
   }
 }
