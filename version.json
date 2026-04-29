@@ -1,14 +1,16 @@
 {
-  "version": "2.0.14",
+  "version": "2.0.16",
   "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.14/NexxtEffectsBundle_Setup_v2.0.14.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.14/NexxtEffects_delta_v2.0.14.zip",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.16/NexxtEffects_delta_v2.0.16.zip",
   "changelog": [
-    "VSL Detector: deteccao visual com GPU — CLIP analisa 3600 frames em intervalos de 0.5s (cobertura total do video)",
-    "VSL Detector: EasyOCR le legendas, banners e lower-thirds diretamente nos frames — produto detectado pelo texto na tela",
-    "VSL Detector: deteccao fonetica com Soundex — variantes fonograficas do nome do produto encontradas no audio",
-    "VSL Detector: log detalhado por metodo — CLIP visual, CLIP texto, OCR, histograma",
-    "Auto-update: atualizacoes rapidas via delta — usuarios ja instalados recebem apenas os arquivos alterados (~5MB em vez de ~100MB)",
-    "Instalacao automatica de dependencias GPU: transformers, EasyOCR instalados automaticamente na primeira vez"
+    "Cacador de Potes (pot_swap): novo modulo para troca automatica de potes em VSLs",
+    "Auto Reframe: novo modulo de reenquadramento automatico",
+    "VSL Detector v14: marcacao frame-a-frame com CLIP local (ONNX/CUDA via clip_detector.py)",
+    "Studio IA: novo modulo unificado para fluxos de IA",
+    "AI Director: preview hover, QA por ID, normalizacao FFmpeg, Mestre Linguistico",
+    "Captions: refinamentos no chunking",
+    "Premiere.jsx: melhorias amplas em legendas, audio IA e timeline",
+    "Delta auto-update: aplicado direto no plugin sem abrir o navegador"
   ],
   "mac": {
     "version": "2.1.2",
