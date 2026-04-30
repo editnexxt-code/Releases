@@ -10,14 +10,14 @@
     "AI Director: preview de video ao passar o mouse e Mestre Linguistico"
   ],
   "mac": {
-    "version": "2.2.6",
-    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.6-mac/NexxtUpdate_v2.2.6_mac.zip",
+    "version": "2.2.7",
+    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.7-mac/NexxtUpdate_v2.2.7_mac.zip",
     "changelog": [
-      "Fix vari-assets aninhado + cards Nao instalado"
+      "Fix MOGRT Unicode + cache de assets no build"
     ],
     "date": "2026-04-30",
-    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.6-mac/NexxtEffects_v2.2.6_mac.pkg",
-    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.6-mac/NexxtEffects_v2.2.6_mac.pkg"
+    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.7-mac/NexxtEffects_v2.2.7_mac.pkg",
+    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.7-mac/NexxtEffects_v2.2.7_mac.pkg"
   },
   "optional_assets": {
     "captions": {
