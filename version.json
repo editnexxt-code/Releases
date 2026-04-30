@@ -6,14 +6,14 @@
     "Pequena correcao de estabilidade em algumas instalacoes."
   ],
   "mac": {
-    "version": "2.2.8",
-    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.8-mac/NexxtUpdate_v2.2.8_mac.zip",
+    "version": "2.2.10",
+    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtUpdate_v2.2.10_mac.zip",
     "changelog": [
-      "Variabilizador install fix + AI Director melhor mensagem + UI cleanup + logs MOGRT"
+      "Cacador de Potes + Troca de Potes + Fontes MOGRT"
     ],
     "date": "2026-04-30",
-    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.8-mac/NexxtEffects_v2.2.8_mac.pkg",
-    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.8-mac/NexxtEffects_v2.2.8_mac.pkg"
+    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtEffects_v2.2.10_mac.pkg",
+    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtEffects_v2.2.10_mac.pkg"
   },
   "optional_assets": {
     "captions": {
