@@ -1,16 +1,13 @@
 {
-  "version": "2.0.16",
+  "version": "2.0.17",
   "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.14/NexxtEffectsBundle_Setup_v2.0.14.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.16/NexxtEffects_delta_v2.0.16.zip",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.17/NexxtEffects_delta_v2.0.17.zip",
   "changelog": [
-    "Cacador de Potes (pot_swap): novo modulo para troca automatica de potes em VSLs",
-    "Auto Reframe: novo modulo de reenquadramento automatico",
-    "VSL Detector v14: marcacao frame-a-frame com CLIP local (ONNX/CUDA via clip_detector.py)",
+    "Cacador de Potes: novo modulo para troca automatica de potes em VSLs",
+    "Auto Reframe: novo modulo de reenquadramento automatico para multiplos formatos",
     "Studio IA: novo modulo unificado para fluxos de IA",
-    "AI Director: preview hover, QA por ID, normalizacao FFmpeg, Mestre Linguistico",
-    "Captions: refinamentos no chunking",
-    "Premiere.jsx: melhorias amplas em legendas, audio IA e timeline",
-    "Delta auto-update: aplicado direto no plugin sem abrir o navegador"
+    "VSL Detector: marcacao frame-a-frame com CLIP local (GPU NVIDIA)",
+    "AI Director: preview de video ao passar o mouse e Mestre Linguistico"
   ],
   "mac": {
     "version": "2.1.2",
