@@ -10,14 +10,14 @@
     "AI Director: preview de video ao passar o mouse e Mestre Linguistico"
   ],
   "mac": {
-    "version": "2.2.4",
-    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.4-mac/NexxtUpdate_v2.2.4_mac.zip",
+    "version": "2.2.5",
+    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.5-mac/NexxtUpdate_v2.2.5_mac.zip",
     "changelog": [
-      "Fix anti-debug que travava plugin no Mac (CEF)"
+      "Fix critico Mac: cliques nao funcionavam (loader)"
     ],
     "date": "2026-04-30",
-    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.4-mac/NexxtEffects_v2.2.4_mac.pkg",
-    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.4-mac/NexxtEffects_v2.2.4_mac.pkg"
+    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.5-mac/NexxtEffects_v2.2.5_mac.pkg",
+    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.5-mac/NexxtEffects_v2.2.5_mac.pkg"
   },
   "optional_assets": {
     "captions": {
