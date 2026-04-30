@@ -10,14 +10,14 @@
     "AI Director: preview de video ao passar o mouse e Mestre Linguistico"
   ],
   "mac": {
-    "version": "2.2.2",
-    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.2-mac/NexxtUpdate_v2.2.2_mac.zip",
+    "version": "2.2.3",
+    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.3-mac/NexxtUpdate_v2.2.3_mac.zip",
     "changelog": [
-      "Auto Reframe + Studio IA + AI Director (Mestre Linguistico)"
+      "Correcoes Mac: permissoes binarios, layout responsivo, sequence resize"
     ],
     "date": "2026-04-30",
-    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.2-mac/NexxtEffects_v2.2.2_mac.pkg",
-    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.2-mac/NexxtEffects_v2.2.2_mac.pkg"
+    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.3-mac/NexxtEffects_v2.2.3_mac.pkg",
+    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.3-mac/NexxtEffects_v2.2.3_mac.pkg"
   },
   "optional_assets": {
     "captions": {
