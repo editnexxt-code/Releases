@@ -10,17 +10,14 @@
     "AI Director: preview de video ao passar o mouse e Mestre Linguistico"
   ],
   "mac": {
-    "version": "2.1.2",
-    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.2-mac/NexxtUpdate_v2.1.2_mac.zip",
+    "version": "2.2.2",
+    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.2-mac/NexxtUpdate_v2.2.2_mac.zip",
     "changelog": [
-      "Fix CRITICO: Auto-update corrigido para Mac com plugin instalado no bundle do app (SIP)",
-      "Fix CRITICO: Bypass de autenticacao offline corrigido",
-      "Fix CRITICO: Quota de geracao nao pode mais ser ignorada offline",
-      "Fix: Timeout de 8s em chamadas ao servidor",
-      "Fix: Device token HMAC para autenticacao mais segura"
+      "Auto Reframe + Studio IA + AI Director (Mestre Linguistico)"
     ],
-    "date": "2026-03-23",
-    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.2-mac/NexxtEffects_v2.1.2_mac.zxp"
+    "date": "2026-04-30",
+    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.2-mac/NexxtEffects_v2.2.2_mac.pkg",
+    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.2-mac/NexxtEffects_v2.2.2_mac.pkg"
   },
   "optional_assets": {
     "captions": {
