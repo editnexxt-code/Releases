@@ -1,13 +1,9 @@
 {
-  "version": "2.0.17",
+  "version": "2.0.18",
   "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.14/NexxtEffectsBundle_Setup_v2.0.14.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.17/NexxtEffects_delta_v2.0.17.zip",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.18/NexxtEffects_delta_v2.0.18.zip",
   "changelog": [
-    "Cacador de Potes: novo modulo para troca automatica de potes em VSLs",
-    "Auto Reframe: novo modulo de reenquadramento automatico para multiplos formatos",
-    "Studio IA: novo modulo unificado para fluxos de IA",
-    "VSL Detector: marcacao frame-a-frame com CLIP local (GPU NVIDIA)",
-    "AI Director: preview de video ao passar o mouse e Mestre Linguistico"
+    "Pequena correcao de estabilidade em algumas instalacoes."
   ],
   "mac": {
     "version": "2.2.8",
