@@ -9,11 +9,12 @@
     "version": "2.2.10",
     "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtUpdate_v2.2.10_mac.zip",
     "changelog": [
-      "Cacador de Potes + Troca de Potes + Fontes MOGRT"
+      "Reorganizacao estrutural + criptografia AES-256-GCM melhorada"
     ],
-    "date": "2026-04-30",
+    "date": "2026-05-01",
     "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtEffects_v2.2.10_mac.pkg",
-    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtEffects_v2.2.10_mac.pkg"
+    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtEffects_v2.2.10_mac.pkg",
+    "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtUpdate_v2.2.10_mac.zip"
   },
   "optional_assets": {
     "captions": {
