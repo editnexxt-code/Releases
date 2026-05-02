@@ -9,7 +9,7 @@
     "version": "2.2.10",
     "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtUpdate_v2.2.10_mac.zip",
     "changelog": [
-      "Reorganizacao estrutural + criptografia AES-256-GCM melhorada"
+      "Fix badges Captions/Variabilizador + fontes MOGRTs + caracteres especiais"
     ],
     "date": "2026-05-01",
     "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtEffects_v2.2.10_mac.pkg",
