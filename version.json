@@ -6,15 +6,15 @@
     "Melhorias visuais e correcoes de estabilidade."
   ],
   "mac": {
-    "version": "2.2.10",
-    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtUpdate_v2.2.10_mac.zip",
+    "version": "2.2.11",
+    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.11-mac/NexxtUpdate_v2.2.11_mac.zip",
     "changelog": [
-      "Fix badges Captions/Variabilizador + fontes MOGRTs + caracteres especiais"
+      "Novo grid MOGRTs + getMGTComponent + multi-slot + fontes"
     ],
-    "date": "2026-05-01",
+    "date": "2026-05-02",
     "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtEffects_v2.2.10_mac.pkg",
-    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtEffects_v2.2.10_mac.pkg",
-    "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtUpdate_v2.2.10_mac.zip"
+    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.11-mac/NexxtUpdate_v2.2.11_mac.zip",
+    "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.11-mac/NexxtUpdate_v2.2.11_mac.zip"
   },
   "optional_assets": {
     "captions": {
