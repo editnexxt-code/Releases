@@ -1,9 +1,9 @@
 {
-  "version": "2.0.21",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.21/NexxtEffectsBundle_Setup_v2.0.21.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.21/NexxtEffects_delta_v2.0.21.zip",
+  "version": "2.0.22",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.22/NexxtEffectsBundle_Setup_v2.0.22.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.22/NexxtEffects_delta_v2.0.22.zip",
   "changelog": [
-    "Novo grid de Mogrts e novas animacoes"
+    "Hotfix: corrige crash do Premiere e cliques no menu principal"
   ],
   "mac": {
     "version": "2.2.11",
@@ -27,7 +27,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.21/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.21/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.22/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v2.0.22/variabilizador.nxe"
   }
 }
