@@ -1,15 +1,11 @@
 {
-  "version": "2.1.0",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.0/NexxtEffectsBundle_Setup_v2.1.0.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.0/NexxtEffects_delta_v2.1.0.zip",
+  "version": "3.0.1",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.1/NexxtEffectsBundle_Setup_v3.0.1.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.1/NexxtEffects_delta_v3.0.1.zip",
   "changelog": [
-    "Voice Studio com Nexxt Voice Local",
-    "Separacao de voz e instrumental local",
-    "Correcao ortografica em SRT Review",
-    "Pot Swap com motor de voz local",
-    "Historico de SRT Review",
-    "Auto Reframe com Batch e modo IA",
-    "MiniMax oficial integrado"
+    "Hotfix: cliques nao funcionavam (escopo isolado em new Function)",
+    "Hotfix: logos nao apareciam (faltavam no instalador)",
+    "Hotfix: anti-debug agressivo desativado (causava falsos positivos)"
   ],
   "mac": {
     "version": "2.2.11",
@@ -33,7 +29,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.0/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v2.1.0/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.1/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.1/variabilizador.nxe"
   }
 }
