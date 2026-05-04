@@ -1,10 +1,10 @@
 {
-  "version": "3.0.10",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.10/NexxtEffectsBundle_Setup_v3.0.10.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.10/NexxtEffects_delta_v3.0.10.zip",
+  "version": "3.0.11",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.11/NexxtEffectsBundle_Setup_v3.0.11.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.11/NexxtEffects_delta_v3.0.11.zip",
   "changelog": [
-    "Fix: Componentes agora detecta corretamente quando voice_local_runtime esta desatualizado e oferece reinstalar",
-    "Antes: Componentes auto-promovia o estado pra versao mais nova mesmo quando o runtime em disco era antigo, escondendo o problema"
+    "Fix: Nexxt Audio agora gera audio sem erro 'cli exit 1: unknown failure'",
+    "Fix: substituido f5-tts_infer-cli.exe (que tinha caminho absoluto hardcoded do PC origem) por 'python -m f5_tts.infer.infer_cli' que e portatil entre PCs"
   ],
   "mac": {
     "version": "2.2.11",
@@ -28,7 +28,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.10/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.10/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.11/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.11/variabilizador.nxe"
   }
 }
