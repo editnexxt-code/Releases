@@ -1,11 +1,10 @@
 {
-  "version": "3.0.1",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.1/NexxtEffectsBundle_Setup_v3.0.1.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.1/NexxtEffects_delta_v3.0.1.zip",
+  "version": "3.0.2",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.2/NexxtEffectsBundle_Setup_v3.0.2.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.2/NexxtEffects_delta_v3.0.2.zip",
   "changelog": [
-    "Hotfix: cliques nao funcionavam (escopo isolado em new Function)",
-    "Hotfix: logos nao apareciam (faltavam no instalador)",
-    "Hotfix: anti-debug agressivo desativado (causava falsos positivos)"
+    "Fix: pacote de MOGRTs Premium agora atualiza corretamente (incluindo novos templates Nexxt)",
+    "Fix: detectPreExisting nao mascara mais updates de assets opcionais"
   ],
   "mac": {
     "version": "2.2.11",
@@ -29,7 +28,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.1/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.1/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.2/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.2/variabilizador.nxe"
   }
 }
