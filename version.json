@@ -1,10 +1,10 @@
 {
-  "version": "3.0.6",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.6/NexxtEffectsBundle_Setup_v3.0.6.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.6/NexxtEffects_delta_v3.0.6.zip",
+  "version": "3.0.7",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.7/NexxtEffectsBundle_Setup_v3.0.7.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.7/NexxtEffects_delta_v3.0.7.zip",
   "changelog": [
-    "Fix: Nexxt Audio agora baixa o modelo F5 corretamente (compativel com f5-tts >= 1.1.x que e namespace package)",
-    "Fix: localizacao do basic_ref_en.wav usa importlib.resources em vez de __file__ (que era None)"
+    "Fix: Nexxt Audio agora detecta qual DLL faltando (torch CUDA, torchaudio, f5-tts) antes do download e mostra mensagem especifica de cada falha",
+    "Fix: erro 'Could not load libtorchaudio.pyd' agora vem com instrucoes de como resolver (VC++ Redist / driver NVIDIA / reinstalar runtime)"
   ],
   "mac": {
     "version": "2.2.11",
@@ -28,7 +28,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.6/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.6/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.7/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.7/variabilizador.nxe"
   }
 }
