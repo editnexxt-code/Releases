@@ -1,8 +1,11 @@
 {
-  "version": "3.0.11",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.11/NexxtEffectsBundle_Setup_v3.0.11.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.11/NexxtEffects_delta_v3.0.11.zip",
+  "version": "3.0.12",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.12/NexxtEffectsBundle_Setup_v3.0.12.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.12/NexxtEffects_delta_v3.0.12.zip",
   "changelog": [
+    "Fix: MOGRTs agora sao instalados automaticamente no primeiro boot (extracao do Nexxt_Mogrts.zip bundled para Documents/Nexxt_Mogrts/)",
+    "Fix: Media Downloader bypassa o anti-bot do YouTube ('Sign in to confirm you're not a bot') via --extractor-args youtube:player_client=android",
+    "Update: yt-dlp atualizado para 2026.03.17 (compatibilidade com YouTube/Instagram restaurada)",
     "Fix: Nexxt Audio agora gera audio sem erro 'cli exit 1: unknown failure'",
     "Fix: substituido f5-tts_infer-cli.exe (que tinha caminho absoluto hardcoded do PC origem) por 'python -m f5_tts.infer.infer_cli' que e portatil entre PCs"
   ],
@@ -28,7 +31,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.11/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.11/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.12/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.12/variabilizador.nxe"
   }
 }
