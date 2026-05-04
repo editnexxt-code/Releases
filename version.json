@@ -1,12 +1,12 @@
 {
-  "version": "3.0.3",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.3/NexxtEffectsBundle_Setup_v3.0.3.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.3/NexxtEffects_delta_v3.0.3.zip",
+  "version": "3.0.4",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.4/NexxtEffectsBundle_Setup_v3.0.4.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.4/NexxtEffects_delta_v3.0.4.zip",
   "changelog": [
-    "Fix: IA local de voz (MiniMax direto, F5 Voice Studio, Audio Separator)",
-    "Fix: Auto Reframe — troca de abas Batch/IA",
-    "Fix: snooze de update agora expira em 24h (antes ficava permanente)",
-    "Novo: modulo Vinculador — sincroniza video curto com audio longo cortando em silencios"
+    "UI: Troca de Potes redesenhada (paleta indigo/violet, glass cards, progress separado)",
+    "UI: Variabilizador / Lumetri Color harmonizado",
+    "UI: Tabs do Search & Change respeitam largura do painel",
+    "UI: Menu reordenado (Nexxt Cut como primeiro)"
   ],
   "mac": {
     "version": "2.2.11",
@@ -22,7 +22,7 @@
   "optional_assets": {
     "captions": {
       "Nexxt_Mogrts.zip": "https://github.com/editnexxt-code/Releases/releases/download/v-assets/Nexxt_Mogrts.zip",
-      "size_mb": 111
+      "size_mb": 127
     },
     "variabilizador": {
       "vari-assets-pack.zip": "https://github.com/editnexxt-code/Releases/releases/download/v-assets/vari-assets-pack.zip",
@@ -30,7 +30,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.3/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.3/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.4/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.4/variabilizador.nxe"
   }
 }
