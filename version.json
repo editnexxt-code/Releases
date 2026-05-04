@@ -1,12 +1,11 @@
 {
-  "version": "3.0.4",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.4/NexxtEffectsBundle_Setup_v3.0.4.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.4/NexxtEffects_delta_v3.0.4.zip",
+  "version": "3.0.5",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.5/NexxtEffectsBundle_Setup_v3.0.5.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.5/NexxtEffects_delta_v3.0.5.zip",
   "changelog": [
-    "UI: Troca de Potes redesenhada (paleta indigo/violet, glass cards, progress separado)",
-    "UI: Variabilizador / Lumetri Color harmonizado",
-    "UI: Tabs do Search & Change respeitam largura do painel",
-    "UI: Menu reordenado (Nexxt Cut como primeiro)"
+    "Fix: botao 'Baixar' do Nexxt Audio agora mostra mensagem de erro detalhada quando algo falha (era silencioso)",
+    "Fix: runtime Voice Local atualizado para v1.0.1 — corrige ABI mismatch torch/torchaudio que travava o download do modelo",
+    "UI: card do modelo F5 deixa claro que ha 2 etapas (runtime + modelo de voz)"
   ],
   "mac": {
     "version": "2.2.11",
@@ -30,7 +29,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.4/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.4/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.5/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.5/variabilizador.nxe"
   }
 }
