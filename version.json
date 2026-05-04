@@ -1,11 +1,11 @@
 {
-  "version": "3.0.8",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.8/NexxtEffectsBundle_Setup_v3.0.8.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.8/NexxtEffects_delta_v3.0.8.zip",
+  "version": "3.0.9",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.9/NexxtEffectsBundle_Setup_v3.0.9.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.9/NexxtEffects_delta_v3.0.9.zip",
   "changelog": [
-    "Fix: download do modelo F5 agora vem direto do Cloudflare R2 (1.3 GB pre-empacotado), sem depender de torchaudio funcionar",
-    "Fix: barra de progresso real (ate ontem era estimada via tamanho do cache)",
-    "Fix: validacao de SHA256 no zip baixado para garantir integridade"
+    "Fix: runtime Voice Local v1.1.0 — agora vem pre-empacotado (sem pip install), resolve erros de libtorchaudio.pyd / DLL CUDA",
+    "Mudanca: instalacao do runtime e 5x mais rapida (download direto + extract, em vez de 9 etapas de pip)",
+    "Mudanca: usuarios com Voice Local v1.0.x verao 'Reinstalar' em Componentes para migrar pro runtime pre-empacotado"
   ],
   "mac": {
     "version": "2.2.11",
@@ -29,7 +29,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.8/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.8/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.9/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.9/variabilizador.nxe"
   }
 }
