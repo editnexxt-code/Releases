@@ -1,11 +1,10 @@
 {
-  "version": "3.0.5",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.5/NexxtEffectsBundle_Setup_v3.0.5.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.5/NexxtEffects_delta_v3.0.5.zip",
+  "version": "3.0.6",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.6/NexxtEffectsBundle_Setup_v3.0.6.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.6/NexxtEffects_delta_v3.0.6.zip",
   "changelog": [
-    "Fix: botao 'Baixar' do Nexxt Audio agora mostra mensagem de erro detalhada quando algo falha (era silencioso)",
-    "Fix: runtime Voice Local atualizado para v1.0.1 — corrige ABI mismatch torch/torchaudio que travava o download do modelo",
-    "UI: card do modelo F5 deixa claro que ha 2 etapas (runtime + modelo de voz)"
+    "Fix: Nexxt Audio agora baixa o modelo F5 corretamente (compativel com f5-tts >= 1.1.x que e namespace package)",
+    "Fix: localizacao do basic_ref_en.wav usa importlib.resources em vez de __file__ (que era None)"
   ],
   "mac": {
     "version": "2.2.11",
@@ -29,7 +28,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.5/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.5/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.6/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.6/variabilizador.nxe"
   }
 }
