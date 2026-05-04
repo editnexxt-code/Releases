@@ -1,11 +1,10 @@
 {
-  "version": "3.0.9",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.9/NexxtEffectsBundle_Setup_v3.0.9.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.9/NexxtEffects_delta_v3.0.9.zip",
+  "version": "3.0.10",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.10/NexxtEffectsBundle_Setup_v3.0.10.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.10/NexxtEffects_delta_v3.0.10.zip",
   "changelog": [
-    "Fix: runtime Voice Local v1.1.0 — agora vem pre-empacotado (sem pip install), resolve erros de libtorchaudio.pyd / DLL CUDA",
-    "Mudanca: instalacao do runtime e 5x mais rapida (download direto + extract, em vez de 9 etapas de pip)",
-    "Mudanca: usuarios com Voice Local v1.0.x verao 'Reinstalar' em Componentes para migrar pro runtime pre-empacotado"
+    "Fix: Componentes agora detecta corretamente quando voice_local_runtime esta desatualizado e oferece reinstalar",
+    "Antes: Componentes auto-promovia o estado pra versao mais nova mesmo quando o runtime em disco era antigo, escondendo o problema"
   ],
   "mac": {
     "version": "2.2.11",
@@ -29,7 +28,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.9/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.9/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.10/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.10/variabilizador.nxe"
   }
 }
