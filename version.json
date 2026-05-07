@@ -1,9 +1,9 @@
 {
-  "version": "3.0.14",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.14/NexxtEffectsBundle_Setup_v3.0.14.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.14/NexxtEffects_delta_v3.0.14.zip",
+  "version": "3.0.15",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.15/NexxtEffectsBundle_Setup_v3.0.15.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.15/NexxtEffects_delta_v3.0.15.zip",
   "changelog": [
-    "Fix: download de templates mais rapido e estavel (CDN Cloudflare)"
+    "Fix: MOGRTs voltam a aparecer separados por 3 linhas / 2 linhas / 1 linha"
   ],
   "mac": {
     "version": "2.2.11",
@@ -27,7 +27,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.14/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.14/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.15/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.15/variabilizador.nxe"
   }
 }
