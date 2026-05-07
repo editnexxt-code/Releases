@@ -18,8 +18,8 @@
   },
   "optional_assets": {
     "captions": {
-      "Nexxt_Mogrts.zip": "https://github.com/editnexxt-code/Releases/releases/download/v-assets/Nexxt_Mogrts.zip",
-      "size_mb": 127
+      "Nexxt_Mogrts.zip": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.16/Nexxt_Mogrts.zip",
+      "size_mb": 140
     },
     "variabilizador": {
       "vari-assets-pack.zip": "https://github.com/editnexxt-code/Releases/releases/download/v-assets/vari-assets-pack.zip",
