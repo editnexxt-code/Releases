@@ -1,9 +1,9 @@
 {
-  "version": "3.0.15",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.15/NexxtEffectsBundle_Setup_v3.0.15.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.15/NexxtEffects_delta_v3.0.15.zip",
+  "version": "3.0.16",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.16/NexxtEffectsBundle_Setup_v3.0.16.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.16/NexxtEffects_delta_v3.0.16.zip",
   "changelog": [
-    "Fix: MOGRTs voltam a aparecer separados por 3 linhas / 2 linhas / 1 linha"
+    "Pacote completo de MOGRTs (1:1 + 9:16 + 16:9) — novos templates verticais e horizontais"
   ],
   "mac": {
     "version": "2.2.11",
@@ -27,7 +27,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.15/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.15/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.16/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.16/variabilizador.nxe"
   }
 }
