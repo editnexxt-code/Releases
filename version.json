@@ -1,9 +1,11 @@
 {
-  "version": "3.0.17",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.17/NexxtEffectsBundle_Setup_v3.0.17.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.17/NexxtEffects_delta_v3.0.17.zip",
+  "version": "3.0.19",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.19/NexxtEffectsBundle_Setup_v3.0.19.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.19/NexxtEffects_delta_v3.0.19.zip",
   "changelog": [
-    "Fix critico: grid de MOGRTs nao renderizava em alguns casos (TypeError no classifyNexxt)",
+    "Grid de MOGRTs: layout corrigido (items colados no topo, multiplas colunas, scroll unico)",
+    "Nova secao 'Aspect Ratios' separa MOGRTs 1:1 / 9:16 / 16:9 dos Nexxt — 1 Linha",
+    "Download de templates: zips com pasta interna agora sao extraidos corretamente",
     "Pacote completo de MOGRTs (1:1 + 9:16 + 16:9) — novos templates verticais e horizontais"
   ],
   "mac": {
@@ -19,7 +21,7 @@
   },
   "optional_assets": {
     "captions": {
-      "Nexxt_Mogrts.zip": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.17/Nexxt_Mogrts.zip",
+      "Nexxt_Mogrts.zip": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.19/Nexxt_Mogrts.zip",
       "size_mb": 140
     },
     "variabilizador": {
@@ -28,7 +30,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.17/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.17/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.19/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.19/variabilizador.nxe"
   }
 }
