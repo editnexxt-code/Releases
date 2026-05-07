@@ -1,10 +1,9 @@
 {
-  "version": "3.0.13",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.13/NexxtEffectsBundle_Setup_v3.0.13.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.13/NexxtEffects_delta_v3.0.13.zip",
+  "version": "3.0.14",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.14/NexxtEffectsBundle_Setup_v3.0.14.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.14/NexxtEffects_delta_v3.0.14.zip",
   "changelog": [
-    "SRT Review - On",
-    "Bugs Corrigidos"
+    "Fix: download de templates mais rapido e estavel (CDN Cloudflare)"
   ],
   "mac": {
     "version": "2.2.11",
@@ -28,7 +27,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.13/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.13/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.14/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.14/variabilizador.nxe"
   }
 }
