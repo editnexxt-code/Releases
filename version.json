@@ -17,14 +17,14 @@
     "Removido MOGRT 'Spinning Subtitles' (nao funcionava)"
   ],
   "mac": {
-    "version": "2.2.11",
-    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.11-mac/NexxtUpdate_v2.2.11_mac.zip",
+    "version": "3.1.0",
+    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.1.0-mac/NexxtUpdate_v3.1.0_mac.zip",
     "changelog": [
-      "Novo grid MOGRTs + fix Cmd+V + tools incluidas + fontes"
+      "MOGRTs complexos, Vinculador multi-vídeo, NexxtCut v2, fixes Mac"
     ],
-    "date": "2026-05-02",
-    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.10-mac/NexxtEffects_v2.2.10_mac.pkg",
-    "url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.11-mac/NexxtUpdate_v2.2.11_mac.zip",
+    "date": "2026-05-12",
+    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.1.0-mac/NexxtEffects_v3.1.0_mac.pkg",
+    "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.1.0-mac/NexxtEffects_v3.1.0_mac.pkg",
     "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.11-mac/NexxtUpdate_v2.2.11_mac.zip"
   },
   "optional_assets": {
