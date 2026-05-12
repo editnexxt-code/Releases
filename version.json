@@ -1,10 +1,20 @@
 {
-  "version": "3.0.20",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.20/NexxtEffectsBundle_Setup_v3.0.20.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.20/NexxtEffects_delta_v3.0.20.zip",
+  "version": "3.0.27",
+  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.27/NexxtEffectsBundle_Setup_v3.0.27.exe",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.27/NexxtEffects_delta_v3.0.27.zip",
   "changelog": [
-    "Fix VSL Detector: usa runtime do Nexxt Audio (resolve 'Nenhum produto detectado' em PCs sem PyTorch global)",
-    "Fix Nexxt Audio: erro claro quando o pacote nao esta instalado (antes pedia chave MiniMax silenciosamente)"
+    "Vinculador: aceita multiplos videos por par (rodam em loop sequencial cobrindo o audio)",
+    "Vinculador: novo layout vertical — videos grandes em cima (grid 9:16) + audio fino embaixo",
+    "Captions: render via Premiere/AME — funciona com clips acelerados, slow-mo, sequencias aninhadas e In/Out",
+    "Captions: clips cortados/divididos do mesmo arquivo agora geram MOGRTs em todos os pedacos",
+    "Captions: trilha nova no topo + MOGRTs ficam selecionados (clique direito > Aninhar)",
+    "Captions: sliders Max Chars / Dur Min / Gap persistem entre sessoes",
+    "Captions: nova categoria 'Aspect Ratios' separa MOGRTs 1:1 / 9:16 / 16:9",
+    "Cacador de Potes (VSL): usa runtime do Nexxt Audio + novo slider de Sensibilidade ajustavel",
+    "Cacador de Potes: erros mostram a maior similaridade encontrada e orientam o ajuste exato",
+    "Audio Separator: fallback CPU automatico quando nao ha GPU NVIDIA",
+    "Nexxt Audio: erro claro quando o pacote nao esta instalado (antes pedia chave MiniMax silenciosamente)",
+    "Removido MOGRT 'Spinning Subtitles' (nao funcionava)"
   ],
   "mac": {
     "version": "2.2.11",
@@ -19,7 +29,7 @@
   },
   "optional_assets": {
     "captions": {
-      "Nexxt_Mogrts.zip": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.20/Nexxt_Mogrts.zip",
+      "Nexxt_Mogrts.zip": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.27/Nexxt_Mogrts.zip",
       "size_mb": 140
     },
     "variabilizador": {
@@ -28,7 +38,7 @@
     }
   },
   "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.20/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.20/variabilizador.nxe"
+    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.27/captions.nxe",
+    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.27/variabilizador.nxe"
   }
 }
