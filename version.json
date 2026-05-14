@@ -1,44 +1,26 @@
 {
-  "version": "3.0.27",
-  "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.27/NexxtEffectsBundle_Setup_v3.0.27.exe",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.27/NexxtEffects_delta_v3.0.27.zip",
+  "name": "Nexxt Effects Bundle",
+  "version": "3.0.30",
+  "description": "Nexxt Effects Bundle panel for Adobe Premiere Pro",
+  "author": "Nexxt Studio",
+  "lastUpdate": "2026-05-14",
+  "url": "https://github.com/editnexxt-code/Releases/releases/latest",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.16/NexxtEffects_delta_v3.0.16.zip",
   "changelog": [
-    "Vinculador: aceita multiplos videos por par (rodam em loop sequencial cobrindo o audio)",
-    "Vinculador: novo layout vertical — videos grandes em cima (grid 9:16) + audio fino embaixo",
-    "Captions: render via Premiere/AME — funciona com clips acelerados, slow-mo, sequencias aninhadas e In/Out",
-    "Captions: clips cortados/divididos do mesmo arquivo agora geram MOGRTs em todos os pedacos",
-    "Captions: trilha nova no topo + MOGRTs ficam selecionados (clique direito > Aninhar)",
-    "Captions: sliders Max Chars / Dur Min / Gap persistem entre sessoes",
-    "Captions: nova categoria 'Aspect Ratios' separa MOGRTs 1:1 / 9:16 / 16:9",
-    "Cacador de Potes (VSL): usa runtime do Nexxt Audio + novo slider de Sensibilidade ajustavel",
-    "Cacador de Potes: erros mostram a maior similaridade encontrada e orientam o ajuste exato",
-    "Audio Separator: fallback CPU automatico quando nao ha GPU NVIDIA",
-    "Nexxt Audio: erro claro quando o pacote nao esta instalado (antes pedia chave MiniMax silenciosamente)",
-    "Removido MOGRT 'Spinning Subtitles' (nao funcionava)"
-  ],
-  "mac": {
-    "version": "3.1.0",
-    "update_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.1.0-mac/NexxtUpdate_v3.1.0_mac.zip",
-    "changelog": [
-      "MOGRTs em clips acelerados/picotados/aninhados, Vinculador multi-vídeo, NexxtCut v2, fixes Mac"
-    ],
-    "date": "2026-05-12",
-    "install_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.1.0-mac/NexxtEffects_v3.1.0_mac.pkg",
-    "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.1.0-mac/NexxtEffects_v3.1.0_mac.pkg",
-    "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v2.2.11-mac/NexxtUpdate_v2.2.11_mac.zip"
-  },
-  "optional_assets": {
-    "captions": {
-      "Nexxt_Mogrts.zip": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.27/Nexxt_Mogrts.zip",
-      "size_mb": 140
-    },
-    "variabilizador": {
-      "vari-assets-pack.zip": "https://github.com/editnexxt-code/Releases/releases/download/v-assets/vari-assets-pack.zip",
-      "size_mb": 942
-    }
-  },
-  "optional_modules": {
-    "captions": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.27/captions.nxe",
-    "variabilizador": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.27/variabilizador.nxe"
-  }
+    "Cacador de Potes: novo pipeline YOLO + DINOv2 + OCR — detecta o frasco + le o rotulo (~5x mais discriminativo que CLIP em produtos visualmente similares).",
+    "Cacador de Potes: slider de Sensibilidade agora 0-100% (alto = mais deteccoes, intuitivo).",
+    "Cacador de Potes: cortes de cena separam aparicoes proximas — produto em 3 cenarios em sequencia vira 3 marcadores.",
+    "Cacador de Potes: checkbox 'Confirmar com OCR' pra modo paranoid (zero ruido).",
+    "Cacador: marcadores e midias caem na timeline ONDE o scan foi iniciado, mesmo se voce trocar de sequencia durante o processamento.",
+    "Cacador: substituicao automatica de midias agora cria SEMPRE track de video nova no topo (nunca sobrescreve) e faz LOOP do video subido se a aparicao for mais longa.",
+    "Cacador: Fill Frame automatico nas midias inseridas — preenche 1:1, 9:16, 16:9 sem distorcer.",
+    "Troca de Potes: TTS sempre em track de audio nova (nunca sobrepoe audio original).",
+    "Troca de Potes: audio original e MUTADO (nao deletado) nos pontos do TTS — reversivel via clique direito > Enable.",
+    "Troca de Potes (F5): aborta com erro claro quando Whisper falha em transcrever a voz de referencia (antes alucinava frase aleatoria no inicio).",
+    "Troca de Potes (F5): deteccao de pausa mais sensivel pra cortar referencia em fim de frase (evita F5 'completar' palavra antes do texto pedido).",
+    "Nexxt Audio (F5): nova barra de progresso global pra geracao de voz — mostra ETA, tempo decorrido e bloco atual em vez de 'Gerando...' mudo.",
+    "Search & Change: aba 'Director' renomeada — nome reflete melhor a funcao de buscar e substituir.",
+    "Instalador: redesign visual (cyan/azul, brand animado, stage labels, details box, 3 passos em vez de 4).",
+    "Instalador (NSIS): titulo centralizado, subtitulo dinamico por fase, barra de progresso azul Nexxt mais visivel."
+  ]
 }
