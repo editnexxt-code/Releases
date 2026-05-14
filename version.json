@@ -1,12 +1,13 @@
 {
   "name": "Nexxt Effects Bundle",
-  "version": "3.0.30",
+  "version": "3.0.31",
   "description": "Nexxt Effects Bundle panel for Adobe Premiere Pro",
   "author": "Nexxt Studio",
   "lastUpdate": "2026-05-14",
   "url": "https://github.com/editnexxt-code/Releases/releases/latest",
   "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.16/NexxtEffects_delta_v3.0.16.zip",
   "changelog": [
+    "Isolar Voz / Isolar Musica: normalizacao automatica do output (loudnorm -16 LUFS). Corrige caso onde a musica de fundo era muito baixa e o stem isolado parecia mudo (~-44dB). Agora vem em volume audivel (~-19dB).",
     "Cacador de Potes: novo pipeline YOLO + DINOv2 + OCR — detecta o frasco + le o rotulo (~5x mais discriminativo que CLIP em produtos visualmente similares).",
     "Cacador de Potes: slider de Sensibilidade agora 0-100% (alto = mais deteccoes, intuitivo).",
     "Cacador de Potes: cortes de cena separam aparicoes proximas — produto em 3 cenarios em sequencia vira 3 marcadores.",
