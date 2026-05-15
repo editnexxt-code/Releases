@@ -1,27 +1,22 @@
 {
   "name": "Nexxt Effects Bundle",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Nexxt Effects Bundle panel for Adobe Premiere Pro",
   "author": "Nexxt Studio",
-  "lastUpdate": "2026-05-14",
+  "lastUpdate": "2026-05-15",
   "url": "https://github.com/editnexxt-code/Releases/releases/latest",
-  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.0.16/NexxtEffects_delta_v3.0.16.zip",
+  "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.1.1-mac/NexxtUpdate_v3.1.1_mac.zip",
   "changelog": [
-    "Isolar Voz / Isolar Musica: normalizacao automatica do output (loudnorm -16 LUFS). Corrige caso onde a musica de fundo era muito baixa e o stem isolado parecia mudo (~-44dB). Agora vem em volume audivel (~-19dB).",
-    "Cacador de Potes: novo pipeline YOLO + DINOv2 + OCR — detecta o frasco + le o rotulo (~5x mais discriminativo que CLIP em produtos visualmente similares).",
-    "Cacador de Potes: slider de Sensibilidade agora 0-100% (alto = mais deteccoes, intuitivo).",
-    "Cacador de Potes: cortes de cena separam aparicoes proximas — produto em 3 cenarios em sequencia vira 3 marcadores.",
-    "Cacador de Potes: checkbox 'Confirmar com OCR' pra modo paranoid (zero ruido).",
-    "Cacador: marcadores e midias caem na timeline ONDE o scan foi iniciado, mesmo se voce trocar de sequencia durante o processamento.",
-    "Cacador: substituicao automatica de midias agora cria SEMPRE track de video nova no topo (nunca sobrescreve) e faz LOOP do video subido se a aparicao for mais longa.",
-    "Cacador: Fill Frame automatico nas midias inseridas — preenche 1:1, 9:16, 16:9 sem distorcer.",
-    "Troca de Potes: TTS sempre em track de audio nova (nunca sobrepoe audio original).",
-    "Troca de Potes: audio original e MUTADO (nao deletado) nos pontos do TTS — reversivel via clique direito > Enable.",
-    "Troca de Potes (F5): aborta com erro claro quando Whisper falha em transcrever a voz de referencia (antes alucinava frase aleatoria no inicio).",
-    "Troca de Potes (F5): deteccao de pausa mais sensivel pra cortar referencia em fim de frase (evita F5 'completar' palavra antes do texto pedido).",
-    "Nexxt Audio (F5): nova barra de progresso global pra geracao de voz — mostra ETA, tempo decorrido e bloco atual em vez de 'Gerando...' mudo.",
-    "Search & Change: aba 'Director' renomeada — nome reflete melhor a funcao de buscar e substituir.",
-    "Instalador: redesign visual (cyan/azul, brand animado, stage labels, details box, 3 passos em vez de 4).",
-    "Instalador (NSIS): titulo centralizado, subtitulo dinamico por fase, barra de progresso azul Nexxt mais visivel."
-  ]
+    "Abas reorganizaveis com drag and drop",
+    "Botao fechar (x) das abas com visual corrigido e separado do texto"
+  ],
+  "mac": {
+    "version": "3.1.1",
+    "url": "https://github.com/editnexxt-code/Releases/releases/download/v3.1.0-mac/NexxtEffects_v3.1.0_mac.pkg",
+    "delta_url": "https://github.com/editnexxt-code/Releases/releases/download/v3.1.1-mac/NexxtUpdate_v3.1.1_mac.zip",
+    "changelog": [
+      "Abas reorganizaveis com drag and drop",
+      "Botao fechar (x) das abas com visual corrigido"
+    ]
+  }
 }
